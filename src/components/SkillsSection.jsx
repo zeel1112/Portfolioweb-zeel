@@ -1,6 +1,6 @@
 import React from 'react';
 import GitHubCalendar from 'react-github-calendar';
-import { personalData } from '../data/personalData';
+import personalData from '../data/personalData';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { useTheme } from '../contexts/ThemeContext';
 

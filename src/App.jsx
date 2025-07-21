@@ -1,15 +1,14 @@
-// src/App.jsx
 import React, { useEffect } from 'react';
 import { ThemeProvider } from './contexts/ThemeContext';
-import Navbar              from './components/Navbar';
-import HeroSection         from './components/HeroSection';
-import AboutSection        from './components/AboutSection';
-import ExperienceSection   from './components/ExperienceSection';
-import ProjectsSection     from './components/ProjectsSection';
-import SkillsSection       from './components/SkillsSection';
-import ContactSection      from './components/ContactSection';
-import Footer              from './components/Footer';
-import ScrollToTop         from './components/ScrollToTop';
+import Navbar            from './components/Navbar';
+import HeroSection       from './components/HeroSection';
+import AboutSection      from './components/AboutSection';
+import ExperienceSection from './components/ExperienceSection';
+import ProjectsSection   from './components/ProjectsSection';
+import SkillsSection     from './components/SkillsSection';
+import ContactSection    from './components/ContactSection';
+import Footer            from './components/Footer';
+import ScrollToTop       from './components/ScrollToTop';
 
 function App() {
   useEffect(() => {
@@ -29,7 +28,6 @@ function App() {
     <ThemeProvider>
       <div className="font-inter transition-all duration-500 animate-fadeIn">
         <Navbar />
-
         <main>
           <HeroSection />
           <AboutSection />
@@ -38,7 +36,6 @@ function App() {
           <SkillsSection />
           <ContactSection />
         </main>
-
         <Footer />
         <ScrollToTop />
       </div>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Mail, Linkedin, Github, Send } from 'lucide-react';
-import { personalData } from '../data/personalData';
+import personalData from '../data/personalData';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const ContactSection = () => {

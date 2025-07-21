@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ExternalLink, Github } from 'lucide-react';
-import { personalData } from '../data/personalData';
+import personalData from '../data/personalData';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const ProjectCard = ({ project }) => {

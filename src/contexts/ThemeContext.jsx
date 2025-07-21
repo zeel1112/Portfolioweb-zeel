@@ -8,16 +8,12 @@ const ThemeContext = createContext({
 export const useTheme = () => useContext(ThemeContext);
 
 export const ThemeProvider = ({ children }) => {
-  // Check for saved theme preference or use system preference
   const [darkMode, setDarkMode] = useState(() => {
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme) {
-      return savedTheme === 'dark';
-    }
+    const saved = localStorage.getItem('theme');
+    if (saved) return saved === 'dark';
     return window.matchMedia('(prefers-color-scheme: dark)').matches;
   });
 
-  // Update theme when state changes
   useEffect(() => {
     if (darkMode) {
       document.documentElement.classList.add('dark');
@@ -28,22 +24,16 @@ export const ThemeProvider = ({ children }) => {
     }
   }, [darkMode]);
 
-  // Listen for system theme changes
   useEffect(() => {
-    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-    const handleChange = (e) => {
-      if (localStorage.getItem('theme') === null) {
-        setDarkMode(e.matches);
-      }
+    const mq = window.matchMedia('(prefers-color-scheme: dark)');
+    const handler = e => {
+      if (!localStorage.getItem('theme')) setDarkMode(e.matches);
     };
-
-    mediaQuery.addEventListener('change', handleChange);
-    return () => mediaQuery.removeEventListener('change', handleChange);
+    mq.addEventListener('change', handler);
+    return () => mq.removeEventListener('change', handler);
   }, []);
 
-  const toggleTheme = () => {
-    setDarkMode(!darkMode);
-  };
+  const toggleTheme = () => setDarkMode(!darkMode);
 
   return (
     <ThemeContext.Provider value={{ darkMode, toggleTheme }}>

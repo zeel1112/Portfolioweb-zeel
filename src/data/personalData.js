@@ -1,13 +1,30 @@
-export const personalData = {
-  name: "Zeel Patel",
-  location: "Scarborough, ON",
-  roles: ["Full Stack Developer", "Cloud & DevOps Enthusiast", "AI/ML Learner"],
-  profileSummary: "Versatile and results-driven Computer Engineering graduate with hands-on experience in full-stack development using React.js, Node.js, and Python. Skilled in deploying secure, scalable apps with Docker, Firebase, and AWS.",
-  email: "zeel2002patel@gmail.com",
-  linkedin: "https://www.linkedin.com/in/zeelpatel",
-  github: "https://github.com/zeelpatel",
-  resumeLink: "/resume.pdf",
-  aboutMe: "I am a Computer Engineering graduate with a passion for developing innovative solutions using cutting-edge technologies. My interest lies in full-stack development, cloud computing, DevOps, and artificial intelligence. I enjoy tackling complex problems and continuously learning new technologies to improve my skill set.",
+const personalData = {
+  name: 'Zeel Patel',
+  location: 'Scarborough, ON, Canada',
+  email: 'zeel2002patel@gmail.com',
+  phone: '+1 (647) 234-3829',
+  linkedin: 'https://www.linkedin.com/in/zeel-patel',
+  github: 'https://github.com/zeel-patel',
+  resumeLink: '/ZeelPatel-Resume.pdf',
+
+  roles: [
+    'Full-Stack Web Developer',
+    'Software Engineer',
+    'AI & ML Enthusiast',
+    'Cloud-Native Builder',
+    'Open-Source Contributor',
+    'Problem-Solver',
+  ],
+  profileSummary:
+    'Computer-Engineering grad who turns complex ideas into fast, cloud-ready products. ' +
+    'I craft pixel-perfect UIs, bulletproof APIs, and data-driven features—shipping code that scales and delights.',
+
+  aboutMe:
+    "I’m Zeel Patel, a full-stack developer passionate about solving real-world problems through code. " +
+    "My toolkit spans React, Node.js, Python, and AWS, backed by AI/ML know-how and a knack for clean architecture. " +
+    "Whether it’s an e-commerce launch or an ML-powered finance app, I deliver maintainable, secure, user-centric solutions.",
+  interests: ['Open Source','Hackathons','Photography','Travel','Cooking'],
+
   education: [
     {
       degree: "M.E. in Computer Engineering",
@@ -132,5 +149,14 @@ export const personalData = {
       duration: "2022-Present",
       description: "Contributing to open-source projects in the JavaScript ecosystem"
     }
-  ]
+  ],
+  contact: {
+    headline: "Let’s build something great.",
+    location: 'Scarborough, ON, Canada',
+    phone: '+1 (647) 234-3829',
+    email: 'zeel2002patel@gmail.com',
+  },
 };
+
+export { personalData };
+export default personalData;

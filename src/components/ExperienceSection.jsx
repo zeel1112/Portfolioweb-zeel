@@ -1,6 +1,6 @@
 import React from 'react';
 import { Clock, Briefcase } from 'lucide-react';
-import { personalData } from '../data/personalData';
+import personalData from '../data/personalData';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const ExperienceCard = ({ experience, isLast }) => {
