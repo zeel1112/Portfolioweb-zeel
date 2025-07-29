@@ -100,7 +100,7 @@ const personalData = {
   skills: [
     {
       category: "Languages",
-      items: ["JavaScript", "Python", "Java", "C++", "PHP"]
+      items: ["JavaScript", "TypeScript", "Python", "Java", "C++", "PHP"]
     },
     {
       category: "Frameworks",
@@ -180,5 +180,4 @@ const personalData = {
   },
 };
 
-export { personalData };
 export default personalData;

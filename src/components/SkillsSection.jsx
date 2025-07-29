@@ -54,7 +54,7 @@ const SkillsSection = () => {
           <div className="card p-6 overflow-x-auto">
             <div className="min-w-max">
               <GitHubCalendar
-                username="zeelpatel"
+                username="zeel1112"
                 theme={calendarTheme}
                 dark={darkMode}
                 hideColorLegend={false}
