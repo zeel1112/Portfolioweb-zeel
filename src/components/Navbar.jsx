@@ -27,7 +27,7 @@ export default function Navbar() {
     { to: 'experience', label: 'Experience' },
     { to: 'projects', label: 'Projects' },
     { to: 'skills', label: 'Skills' },
-    { to: 'blog', label: 'Blog' },
+    //{ to: 'blog', label: 'Blog' },
     { to: 'contact', label: 'Contact' },
   ];
 
