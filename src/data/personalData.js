@@ -4,12 +4,12 @@ const personalData = {
   email: 'zeel2002patel@gmail.com',
   phone: '+1 (647) 234-3829',
   linkedin: 'https://www.linkedin.com/in/zeel-patel',
-  github: 'https://github.com/zeel-patel',
+  github: 'https://github.com/zeel1112',
   resumeLink: '/ZeelPatel-Resume.pdf',
 
   roles: [
     'Full-Stack Web Developer',
-    'Software Engineer',
+    'Aspiring Software Developer',
     'AI & ML Enthusiast',
     'Cloud-Native Builder',
     'Open-Source Contributor',
@@ -23,7 +23,7 @@ const personalData = {
     "I’m Zeel Patel, a full-stack developer passionate about solving real-world problems through code. " +
     "My toolkit spans React, Node.js, Python, and AWS, backed by AI/ML know-how and a knack for clean architecture. " +
     "Whether it’s an e-commerce launch or an ML-powered finance app, I deliver maintainable, secure, user-centric solutions.",
-  interests: ['Open Source','Hackathons','Photography','Travel','Cooking'],
+  interests: ['Solving Real-World Problems','Hackathons','Photography','Dance','Cooking'],
 
   education: [
     {
@@ -39,12 +39,12 @@ const personalData = {
       gpa: "8.75"
     }
   ],
-  interests: ["AI", "IoT", "Smart Agriculture", "Competitive Programming"],
+  interests: ["Application Development", "AI/ML", "Real World Problems", "Competitive Programming"],
   experiences: [
     {
-      role: "Web Developer",
+      role: "Full-Stack Web Developer",
       company: "Brainbean Technolabs",
-      duration: "Jun 2023 – Jun 2024",
+      duration: "Aug 2021 – Jun 2024",
       description: [
         "Developed responsive applications using React.js and PHP",
         "Implemented SEO strategies to improve site visibility",
@@ -54,7 +54,7 @@ const personalData = {
       skills: ["React.js", "PHP", "SEO", "CI/CD", "Caching"]
     },
     {
-      role: "ReactJS Intern",
+      role: "ReactJS Developer Intern",
       company: "Techelecon",
       duration: "May 2023 – Jun 2023",
       description: [
@@ -72,22 +72,22 @@ const personalData = {
       description: "Competitive programming platform with containerized code execution and real-time problem-solving capabilities",
       image: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg",
       tags: ["React.js", "Node.js", "Docker", "MongoDB"],
-      githubLink: "https://github.com/zeelpatel/code-hustle",
+      githubLink: "https://github.com/zeel1112/Code-Hustle",
       demoLink: "https://code-hustle.example.com"
     },
     {
       title: "FinSecure",
       description: "AI-Powered budgeting system with machine learning-based expense classification and financial insights",
       image: "https://images.pexels.com/photos/8370752/pexels-photo-8370752.jpeg",
-      tags: ["Python", "TensorFlow", "React.js", "PostgreSQL"],
-      githubLink: "https://github.com/zeelpatel/finsecure"
+      tags: ["Python", "Flask", "React.js", "PostgreSQL"],
+      githubLink: "https://github.com/zeel1112/Finsecure-Application"
     },
     {
       title: "Auto Warehouse Object Detection",
       description: "Real-time object recognition system for automated warehouse management using computer vision",
       image: "https://images.pexels.com/photos/2659939/pexels-photo-2659939.jpeg",
       tags: ["Python", "OpenCV", "TensorFlow", "IoT"],
-      githubLink: "https://github.com/zeelpatel/warehouse-detection"
+      githubLink: "https://github.com/zeel1112/AI-Crop-yield-prediction"
     },
     {
       title: "Portfolio Optimization in Finance",
@@ -121,19 +121,29 @@ const personalData = {
   ],
   certifications: [
     {
-      title: "AWS Certified Solutions Architect",
-      issuer: "Amazon Web Services",
-      date: "2023"
+      title: "AWS Training for Developer",
+      issuer: "LinkedIn Learning",
+      date: "July 2025"
     },
     {
-      title: "Google Cloud Associate Engineer",
-      issuer: "Google",
-      date: "2023"
+      title: "Introduction to DevOps",
+      issuer: "IBM Developer Skills Network",
+      date: "March2023"
     },
     {
-      title: "TensorFlow Developer Certificate",
-      issuer: "Google",
-      date: "2022"
+      title: "Responsive Web Design",
+      issuer: "freeCodeCamp Org",
+      date: "May 2023"  
+    },
+    {
+      title: "Interactivity with JavaScript",
+      issuer: "University of Michigan",
+      date: "Aug 2022"  
+    },
+    {
+      title: "Android app development with Java",
+      issuer: "Indian Institute of Technilogy,Bombay",
+      date: "Dec 2022"  
     }
   ],
   volunteeringRoles: [
@@ -144,10 +154,22 @@ const personalData = {
       description: "Organized weekly coding sessions and workshops for students"
     },
     {
-      role: "Open Source Contributor",
-      organization: "Various Projects",
-      duration: "2022-Present",
-      description: "Contributing to open-source projects in the JavaScript ecosystem"
+      role: "Member of Parliament",
+      organization: "Gujarat Youth Parliament 2024 (GYP 2024)",
+      duration: "March 2024",
+      description: "Participating in fervent discussions, formulating resolutions, and working alongside fellow youthful influencers was an exceptional experience. "
+    },
+    {
+      role: "General Secretary",
+      organization: " MBIT Central Committee 2023",
+      duration: "2023-2024",
+      description: "Oraganizing events like Tech Fest, Fresher's, and other cultural events. "
+    },
+    {
+      role: "Training & Placement Coordinator",
+      organization: "CVM University",
+      duration: "March 2024",
+      description: "Organizing on campus events and networking with recruiters and industry experts"
     }
   ],
   contact: {
