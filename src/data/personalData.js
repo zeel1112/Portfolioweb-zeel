@@ -94,7 +94,7 @@ const personalData = {
       description: "Investment portfolio optimization tool using Modern Portfolio Theory and Genetic Algorithms",
       image: "https://images.pexels.com/photos/534216/pexels-photo-534216.jpeg",
       tags: ["Python", "NumPy", "Pandas", "Scikit-learn"],
-      githubLink: "https://github.com/zeelpatel/portfolio-optimizer"
+      githubLink: "https://github.com/zeel1112"
     }
   ],
   skills: [
