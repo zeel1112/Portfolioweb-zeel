@@ -9,7 +9,7 @@ const personalData = {
   github: 'https://github.com/zeel1112',
   resumeLink: '/ZeelPatel-Resume.pdf',
 
-  // Eye-Catching Badges
+  
   roles: [
     'Cloud-Native Craftsman',
     'TypeScript & React Specialist',
@@ -19,7 +19,7 @@ const personalData = {
     'Collaborative Problem Solver',
   ],
 
-  // Snapshot
+  // Professional Summary
   profileSummary:
     'With 3+ years of building high-performance, scalable web and cloud solutions, I merge clean architecture with data-driven insights to deliver delightful user experiences. ' +
     'Driven by Canada’s dynamic tech landscape, I champion TypeScript-first development, serverless patterns, and AI-infused features that scale.',
@@ -68,9 +68,9 @@ const personalData = {
       role: 'Software Developer (Freelance)',
       company: 'Outlier.ai',
       duration: 'Aug 2024 – Present',
-      techStack: ['TypeScript', 'Python', 'AI Prompt Engineering', 'C++'],
+      techStack: ['JavaScript','TypeScript', 'React', 'HTML/CSS', 'Python', 'AI Prompt Engineering', 'C++'],
       highlights: [
-        'Authored AI-driven code prompts in TypeScript and Python, boosting developer efficiency by 30%.',
+        'Authored AI-driven code prompts in JavaScriptT, React, CSS, HTML, TypeScript and Python, boosting developer efficiency by 30%.',
         'Refined AI-generated solutions for performance, clarity, and maintainability across C++ and JS.',
       ],
     },
@@ -78,14 +78,14 @@ const personalData = {
       role: 'Full-Stack Web Developer',
       company: 'Brainbean Technolabs',
       duration: 'Aug 2021 – Jun 2024',
-      techStack: ['React.js', 'Node.js', 'Express.js', 'Docker', 'AWS (S3, Lambda)', 'GitHub Actions', 'WCAG/AODA', 'Redis'],
+      techStack: ['React.js', 'Node.js', 'Express.js', 'Docker', 'AWS (S3, Lambda)', 'GitHub Actions', 'WCAG/AODA', ''],
       highlights: [
         'Architected and scaled 7+ full-stack applications using React, Node.js & Express REST APIs.',
         'Containerized microservices with Docker & AWS Lambda, achieving 99.9% uptime.',
         'Reduced front-end load times by 35% via code-splitting and server-side rendering.',
         'Led accessibility overhaul (WCAG/AODA), unlocking +20% new user base.',
         'Orchestrated CI/CD pipelines in GitHub Actions, shifting to daily releases.',
-        'Implemented Redis caching, slashing API response times by 50%.',
+        'Implemented client-side caching, slashing API response times by 50%.',
       ],
     },
     {
@@ -109,7 +109,7 @@ const personalData = {
       image: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg',
       tags: ['React.js', 'Node.js', 'Docker', 'PostgreSQL'],
       githubLink: 'https://github.com/zeel1112/Code-Hustle',
-      demoLink: 'https://code-hustle.example.com',
+      demoLink: 'https://codehustleapp.netlify.app/',
     },
     {
       title: 'FinSecure',
@@ -117,6 +117,7 @@ const personalData = {
       image: 'https://images.pexels.com/photos/8370752/pexels-photo-8370752.jpeg',
       tags: ['Python', 'Flask', 'React.js', 'PostgreSQL', 'Scikit-learn'],
       githubLink: 'https://github.com/zeel1112/Finsecure-Application',
+      demoLink: 'https://finsecureapp.netlify.app/',
     },
     {
       title: 'Auto Warehouse Detector',

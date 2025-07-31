@@ -29,7 +29,7 @@ const ExperienceCard = ({ experience, isLast }) => {
         <p className="text-lg text-primary-500 mb-4">{experience.company}</p>
         
         <ul className="list-disc list-inside space-y-2 mb-4">
-          {experience.description.map((item, index) => (
+          {experience.highlights.map((item, index) => (
             <li key={index} className="text-gray-600 dark:text-gray-300">
               {item}
             </li>
@@ -37,7 +37,7 @@ const ExperienceCard = ({ experience, isLast }) => {
         </ul>
         
         <div className="flex flex-wrap gap-2 mt-3">
-          {experience.skills.map((skill, index) => (
+          {experience.techStack.map((skill, index) => (
             <span 
               key={index}
               className="px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded-full text-sm text-gray-700 dark:text-gray-300"
